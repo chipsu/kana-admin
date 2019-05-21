@@ -1,4 +1,5 @@
 {
+  "name": "kana-admin",
   "scripts": {
     "dev": "next",
     "build": "next build",
