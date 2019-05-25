@@ -4,9 +4,9 @@ export default props => {
   return (
     <>
       <h1>Hello World</h1>
-      <p>
+      <div>
         This is my <Button>final CMS</Button>
-      </p>
+      </div>
     </>
   )
 }
