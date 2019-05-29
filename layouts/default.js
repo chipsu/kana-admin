@@ -13,7 +13,7 @@ import {
 
 export default ({ children, ...rest }) => {
   const iconSize = 16
-  const UserMenu = (
+  const UserDropdownContent = (
     <Flex>
       <Button>
         <Trash size={iconSize} />
@@ -53,7 +53,7 @@ export default ({ children, ...rest }) => {
         <Button>
           <Wifi size={iconSize} />
         </Button>
-        <Dropdown align="right" content={UserMenu}>
+        <Dropdown content={UserDropdownContent}>
           <Button>
             <User size={iconSize} />
           </Button>
